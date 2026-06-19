@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { I18nProvider } from "@/lib/i18n";
 import SchemaMarkup from "@/components/SchemaMarkup";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Chilli Boys MFG. | Engineering & Fabrication — Baja California Sur",
@@ -56,6 +57,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         <I18nProvider>{children}</I18nProvider>
+        <Analytics />
       </body>
     </html>
   );
