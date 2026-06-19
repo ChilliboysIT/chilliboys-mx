@@ -98,9 +98,9 @@ export default function Home() {
     <main className="min-h-screen">
       {/* HERO */}
       <section className="relative flex flex-col items-center justify-center min-h-[90vh] text-center px-4 overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-[#b87333] rounded-full blur-[120px]" />
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#8b4513] rounded-full blur-[120px]" />
+        <div className="absolute inset-0 opacity-[0.06] pointer-events-none">
+          <div className="absolute -top-10 -left-10 w-96 h-96 bg-[#b87333] rounded-full blur-[140px]" />
+          <div className="absolute -bottom-10 -right-10 w-[28rem] h-[28rem] bg-[#8b4513] rounded-full blur-[160px]" />
         </div>
         <div className="relative z-10 max-w-4xl mx-auto space-y-6">
           <div className="flex items-center justify-center gap-4 mb-4">
@@ -117,7 +117,7 @@ export default function Home() {
           </div>
           <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-[1.1]">
             {t("hero.title1") as string}<br/>
-            <span className="text-transparent bg-clip-text copper-gradient">{t("hero.title2") as string}</span>
+            <span className="text-gradient-copper">{t("hero.title2") as string}</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto leading-relaxed">{t("hero.subtitle") as string}</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-6">

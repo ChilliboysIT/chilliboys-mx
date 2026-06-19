@@ -20,6 +20,14 @@ body {
   background: linear-gradient(135deg, #b87333 0%, #8b4513 100%);
 }
 
+.text-gradient-copper {
+  background: linear-gradient(135deg, #b87333 0%, #e6a57a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
 .texture-card {
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
