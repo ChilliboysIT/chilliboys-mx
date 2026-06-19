@@ -46,7 +46,7 @@ There is **no top navigation bar.** The site is designed as a scroll-driven sing
 **External links (all open in new tab):**
 - Instagram: `https://instagram.com/chilliboys.mx`
 - Facebook: `https://facebook.com/chilliboys.mx`
-- WhatsApp: `https://wa.me/5216242294158`
+- WhatsApp: `https://wa.me/526121052006`
 - Plan Your Cerritos: `https://plan.chilliboys.mx`
 
 ---

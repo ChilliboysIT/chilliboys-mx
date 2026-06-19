@@ -9,7 +9,7 @@ export default function SchemaMarkup() {
     description:
       "Custom engineering and fabrication shop in Baja California Sur, Mexico. Specializing in metalwork, woodwork, pergolas, staircases, gates, and outdoor structures.",
     url: "https://chilliboys.mx",
-    telephone: "+52-624-229-4158",
+    telephone: "+52-612-105-2006",
     email: "build@chilliboys.mx",
     address: {
       "@type": "PostalAddress",

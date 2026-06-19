@@ -81,10 +81,7 @@ chilliboys-site/
 
 ## Critical Customizations Before Launch
 
-1. **WhatsApp Number** — Replace `5216242294158` in:
-   - `src/app/page.tsx`
-   - `src/components/FloatingWhatsApp.tsx`
-   - `src/components/LeadForm.tsx`
+1. **WhatsApp Number** — Update `WHATSAPP_NUMBER` in `src/lib/constants.ts` (used by page, FloatingWhatsApp, and LeadForm).
 
 2. **Google Analytics ID** — Set `NEXT_PUBLIC_GA_ID` in Vercel env vars.
 

@@ -10,7 +10,7 @@
 - **Industry:** Custom engineering & fabrication — metalwork, woodwork, outdoor structures
 - **Location:** KM 65 Highway 1, El Pescadero, Baja California Sur, Mexico 23300
 - **Service Area:** Cerritos Beach, Todos Santos, La Paz, Los Cabos corridor
-- **Phone:** +52 624 229 4158
+- **Phone:** +52 612 105 2006
 - **Email:** build@chilliboys.mx
 - **Hours:** Monday–Friday 08:00–15:30
 - **Tagline:** "You Dream It. We Build It."
@@ -91,7 +91,7 @@ User visits site
 These MUST be updated before production:
 
 ```
-WHATSAPP_NUMBER = "5216242294158"   ← Replace with real business number
+WHATSAPP_NUMBER = "526121052006"    ← Already set in src/lib/constants.ts
 GA_ID = "G-DNDSGN1J3E"                ← Replace with real GA4 ID
 ```
 
@@ -142,6 +142,6 @@ Locations:
 
 ## 10. Contact for Questions
 
-- **Owner:** Chilli Boys Manufacturing (WhatsApp: +52 624 229 4158)
+- **Owner:** Chilli Boys Manufacturing (WhatsApp: +52 612 105 2006)
 - **Developer:** Ridge Runner Digital Solutions / Vote4arealclown
 - **Related Project:** https://plan.chilliboys.mx

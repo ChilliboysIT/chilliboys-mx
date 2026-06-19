@@ -80,7 +80,7 @@ export default function PrivacyPolicy() {
           <p>Data Controller: Chilli Boys Manufacturing</p>
           <p>Address: KM 65 Highway 1, El Pescadero, BCS 23300, Mexico</p>
           <p>Email: <a href="mailto:privacy@chilliboys.mx" className="text-copper hover:underline">privacy@chilliboys.mx</a></p>
-          <p>WhatsApp: +52 624 229 4158</p>
+          <p>WhatsApp: +52 612 105 2006</p>
         </section>
       </div>
       <div className="mt-12 pt-8 border-t border-white/10 text-center">

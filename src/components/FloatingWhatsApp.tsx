@@ -2,11 +2,7 @@
 
 import { MessageCircle } from "lucide-react";
 import { useI18n } from "@/lib/i18n";
-
-const WHATSAPP_NUMBER = "5216242294158"; // ← REPLACE WITH YOUR REAL NUMBER
-const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Hi Chilli Boys! I visited your website and I'm interested in a custom project. Can we discuss?"
-);
+import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from "@/lib/constants";
 
 export default function FloatingWhatsApp() {
   const { t } = useI18n();

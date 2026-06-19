@@ -2,9 +2,8 @@
 
 import { useState } from "react";
 import { useI18n } from "@/lib/i18n";
+import { WHATSAPP_NUMBER } from "@/lib/constants";
 import { Send, CheckCircle, MessageCircle } from "lucide-react";
-
-const WHATSAPP_NUMBER = "5216242294158"; // ← REPLACE WITH YOUR REAL NUMBER
 
 const projectTypes = [
   "project.handrails",
