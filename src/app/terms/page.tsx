@@ -45,7 +45,7 @@ export default function Terms() {
         </section>
         <section>
           <h2 className="text-xl font-bold text-white mb-2">9. Contact</h2>
-          <p>For questions about these terms, contact us at <a href="mailto:build@chilliboys.mx" className="text-copper hover:underline">build@chilliboys.mx</a> or via WhatsApp at +52 612 105 2006 or by phone at +52 624 229 4158.</p>
+          <p>For questions about these terms, contact us at <a href="mailto:build@chilliboys.mx" className="text-copper hover:underline">build@chilliboys.mx</a> or via WhatsApp using the chat button on this site, or by phone at +52 624 229 4158.</p>
         </section>
       </div>
       <div className="mt-12 pt-8 border-t border-white/10 text-center">
