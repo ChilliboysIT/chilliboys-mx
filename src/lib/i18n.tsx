@@ -35,7 +35,7 @@ const dictionary: Record<Lang, Record<string, string | string[]>> = {
     "info.hours": "Hours",
     "info.hours.val": "Mon–Sat 08:00 – 15:30",
     "info.phone": "Phone",
-    "info.phone.val": "+52 612 105 2006",
+    "info.phone.val": "+52 624 229 4158",
     "about.title": "Our Craftsmanship",
     "about.p1":
       "At Chilli Boys, we pride ourselves on our exceptional craftsmanship. Our skilled artisans use high-quality materials to create stunning designs that stand the test of time.",
@@ -145,7 +145,7 @@ const dictionary: Record<Lang, Record<string, string | string[]>> = {
     "info.hours": "Horario",
     "info.hours.val": "Lun–Sáb 08:00 – 15:30",
     "info.phone": "Teléfono",
-    "info.phone.val": "+52 612 105 2006",
+    "info.phone.val": "+52 624 229 4158",
     "about.title": "Nuestra Artesanía",
     "about.p1": "En Chilli Boys, nos enorgullecemos de nuestra excepcional artesanía. Nuestros hábiles artesanos utilizan materiales de alta calidad para crear diseños impresionantes que resisten el paso del tiempo.",
     "about.p2": "Fundados en El Pescadero, BCS, hemos crecido desde un pequeño taller de soldadura hasta una empresa de fabricación de servicio completo que atiende a toda la región de Baja California Sur. Cada proyecto está diseñado para los desafíos únicos del clima desértico costero — aire salino, vientos fuertes y sol implacable.",

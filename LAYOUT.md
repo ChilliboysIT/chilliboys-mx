@@ -38,7 +38,7 @@
 There is **no top navigation bar.** The site is designed as a scroll-driven single page.
 
 **Internal links:**
-- Hero "Browse Our Catalog" → `#catalog`
+- Hero "Browse Our Catalog" → `/products`
 - Footer "Privacy Policy" → `/privacy-policy`
 - Footer "Terms of Service" → `/terms`
 - Footer "Plan Your Cerritos →" → `https://plan.chilliboys.mx`
@@ -46,7 +46,8 @@ There is **no top navigation bar.** The site is designed as a scroll-driven sing
 **External links (all open in new tab):**
 - Instagram: `https://instagram.com/chilliboys.mx`
 - Facebook: `https://facebook.com/chilliboys.mx`
-- WhatsApp: `https://wa.me/526121052006`
+- WhatsApp (Greg): `https://wa.me/526121052006`
+- Office Phone: `+52 624 229 4158`
 - Plan Your Cerritos: `https://plan.chilliboys.mx`
 
 ---
