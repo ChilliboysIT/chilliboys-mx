@@ -127,10 +127,6 @@ export default function Home() {
             <p className="text-gray-400 leading-relaxed">{t("about.p1") as string}</p>
             <p className="text-gray-400 leading-relaxed">{t("about.p2") as string}</p>
             <p className="text-gray-400 leading-relaxed">{t("about.p3") as string}</p>
-            <a href={`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`} target="_blank" rel="noopener noreferrer"
-               className="inline-flex items-center gap-2 text-copper hover:text-white transition-colors font-medium">
-              <MessageCircle className="w-5 h-5" />{t("about.cta") as string}
-            </a>
           </div>
         </div>
       </section>
