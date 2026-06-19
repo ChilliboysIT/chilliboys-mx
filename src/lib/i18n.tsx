@@ -23,7 +23,7 @@ const dictionary: Record<Lang, Record<string, string | string[]>> = {
     "hero.title1": "You Dream It.",
     "hero.title2": "We Build It.",
     "hero.subtitle":
-      "Chilli Boys MFG. is a full-service engineering and fabrication shop based in Baja California Sur, Mexico. From pergolas to staircases, we turn your concepts into coastal-grade reality.",
+      "Chilli Boys Manufacturing is a full-service engineering and fabrication shop based in Baja California Sur, Mexico. From pergolas to staircases, to solar we turn your concepts into coastal-grade reality.",
     "hero.cta.catalog": "Browse Our Catalog",
     "hero.cta.whatsapp": "Start Your Project on WhatsApp",
     "info.location": "Location",
@@ -133,7 +133,7 @@ const dictionary: Record<Lang, Record<string, string | string[]>> = {
     "hero.tagline": "Ingeniería y Fabricación",
     "hero.title1": "Tú lo Sueñas.",
     "hero.title2": "Nosotros lo Construimos.",
-    "hero.subtitle": "Chilli Boys MFG. es un taller de ingeniería y fabricación de servicio completo con sede en Baja California Sur, México. Desde pérgolas hasta escaleras, convertimos tus conceptos en realidad de grado costero.",
+    "hero.subtitle": "Chilli Boys Manufacturing es un taller de ingeniería y fabricación de servicio completo con sede en Baja California Sur, México. Desde pérgolas hasta escaleras, pasando por solar, convertimos tus conceptos en realidad de grado costero.",
     "hero.cta.catalog": "Explorar Catálogo",
     "hero.cta.whatsapp": "Iniciar Proyecto por WhatsApp",
     "info.location": "Ubicación",
