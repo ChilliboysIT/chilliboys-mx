@@ -35,8 +35,6 @@ export default function SchemaMarkup() {
     priceRange: "$$$",
     image: "https://chilliboys.mx/logo.png",
     sameAs: [
-      "https://instagram.com/chilliboys.mx",
-      "https://facebook.com/chilliboys.mx",
       "https://plan.chilliboys.mx",
     ],
   };
@@ -47,10 +45,7 @@ export default function SchemaMarkup() {
     name: "Chilli Boys Manufacturing",
     url: "https://chilliboys.mx",
     logo: "https://chilliboys.mx/logo.png",
-    sameAs: [
-      "https://instagram.com/chilliboys.mx",
-      "https://facebook.com/chilliboys.mx",
-    ],
+    sameAs: [],
   };
 
   const website = {
