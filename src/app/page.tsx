@@ -70,12 +70,19 @@ const catalog = [
 function WhatsAppButton({ large = false }: { large?: boolean }) {
   const href = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`;
   const classes = large
-    ? "inline-flex items-center gap-3 copper-gradient px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-copper/50 transition-all hover:scale-105"
+    ? "inline-flex items-center justify-center gap-2 sm:gap-3 copper-gradient px-5 sm:px-8 py-3 sm:py-4 rounded-full font-bold text-sm sm:text-lg shadow-2xl hover:shadow-copper/50 transition-all hover:scale-105 text-center max-w-full"
     : "inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white px-5 py-2.5 rounded-full font-medium transition-all hover:scale-105";
   return (
     <a href={href} target="_blank" rel="noopener noreferrer" className={classes}>
       <MessageCircle className={large ? "w-6 h-6" : "w-5 h-5"} />
-      {large ? "Start Your Project on WhatsApp" : "Chat on WhatsApp"}
+      {large ? (
+        <>
+          <span className="sm:hidden">Start on WhatsApp</span>
+          <span className="hidden sm:inline">Start Your Project on WhatsApp</span>
+        </>
+      ) : (
+        "Chat on WhatsApp"
+      )}
     </a>
   );
 }
@@ -97,40 +104,40 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* HERO */}
-      <section className="relative flex flex-col items-center justify-center min-h-[90vh] text-center px-4 overflow-hidden">
+      <section className="relative min-h-[85vh] md:min-h-[90vh] px-4 sm:px-6 overflow-hidden">
         <div className="absolute inset-0 opacity-[0.06] pointer-events-none">
-          <div className="absolute -top-10 -left-10 w-96 h-96 bg-[#b87333] rounded-full blur-[140px]" />
-          <div className="absolute -bottom-10 -right-10 w-[28rem] h-[28rem] bg-[#8b4513] rounded-full blur-[160px]" />
+          <div className="absolute -top-10 -left-10 w-72 h-72 sm:w-96 sm:h-96 bg-[#b87333] rounded-full blur-[100px] sm:blur-[140px]" />
+          <div className="absolute -bottom-10 -right-10 w-80 h-80 sm:w-[28rem] sm:h-[28rem] bg-[#8b4513] rounded-full blur-[120px] sm:blur-[160px]" />
         </div>
-        <div className="relative z-10 max-w-4xl mx-auto space-y-6">
-          <div className="flex items-center justify-center gap-4 mb-4">
+        <div className="relative z-10 w-full max-w-4xl mx-auto text-center py-12 space-y-5 sm:space-y-6">
+          <div className="flex items-center justify-center gap-4 mb-2 sm:mb-4">
             <LanguageSwitcher />
           </div>
-          <div className="inline-block mb-4">
-            <div className="w-32 h-32 mx-auto bg-white/5 border-2 border-copper/30 rounded-full flex items-center justify-center text-copper font-black text-xl tracking-tighter">
+          <div className="block mb-2 sm:mb-4">
+            <div className="w-24 h-24 sm:w-32 sm:h-32 mx-auto bg-white/5 border-2 border-copper/30 rounded-full flex items-center justify-center text-copper font-black text-base sm:text-xl tracking-tighter">
               CHILLI<br/>BOYS
             </div>
           </div>
-          <div className="inline-flex items-center gap-2 text-sm tracking-[0.3em] uppercase text-[#b87333] font-semibold border border-[#b87333]/30 px-4 py-2 rounded-full">
-            <Factory className="w-4 h-4" />
-            {t("hero.tagline") as string}
+          <div className="inline-flex flex-wrap justify-center items-center gap-2 text-[10px] sm:text-sm tracking-[0.15em] sm:tracking-[0.3em] uppercase text-[#b87333] font-semibold border border-[#b87333]/30 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full max-w-full">
+            <Factory className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+            <span className="text-center leading-none whitespace-normal">{t("hero.tagline") as string}</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-[1.1]">
+          <h1 className="text-[1.5rem] sm:text-5xl md:text-7xl font-black tracking-tight leading-[1.1] break-all sm:break-words px-1 sm:px-0 min-w-0 w-full max-w-[340px] sm:max-w-full">
             {t("hero.title1") as string}<br/>
             <span className="text-gradient-copper">{t("hero.title2") as string}</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto leading-relaxed">{t("hero.subtitle") as string}</p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-6">
+          <p className="text-[10px] sm:text-lg md:text-2xl text-gray-400 w-full max-w-[340px] sm:max-w-2xl mx-auto leading-normal sm:leading-relaxed break-all sm:break-words min-w-0">{t("hero.subtitle") as string}</p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 pt-4 sm:pt-6 w-full px-2 sm:px-0">
             <WhatsAppButton large />
-            <a href="#catalog" className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white/20 hover:bg-white/5 transition-all font-medium">
-              {t("hero.cta.catalog") as string}<ArrowRight className="w-5 h-5" />
+            <a href="#catalog" className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-white/20 hover:bg-white/5 transition-all font-medium text-sm sm:text-base">
+              {t("hero.cta.catalog") as string}<ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
             </a>
           </div>
-          <div className="flex items-center justify-center gap-6 pt-8">
+          <div className="flex items-center justify-center gap-5 sm:gap-6 pt-6 sm:pt-8">
             {socialLinks.map((link) => (
               <a key={link.name} href={link.href} target="_blank" rel="noopener noreferrer"
-                 className={`p-3 rounded-full bg-white/5 border border-white/10 transition-all hover:scale-110 ${link.color}`} aria-label={link.name}>
-                <link.icon className="w-6 h-6" />
+                 className={`p-2.5 sm:p-3 rounded-full bg-white/5 border border-white/10 transition-all hover:scale-110 ${link.color}`} aria-label={link.name}>
+                <link.icon className="w-5 h-5 sm:w-6 sm:h-6" />
               </a>
             ))}
           </div>
@@ -210,7 +217,7 @@ export default function Home() {
         <div className="space-y-16">
           {filteredCatalog.map((section) => (
             <div key={section.category}>
-              <h3 className="text-2xl font-bold mb-8 flex items-center gap-3"><Hammer className="w-6 h-6 text-[#b87333]" />{t(section.category) as string}</h3>
+              <h3 className="text-xl sm:text-2xl font-bold mb-8 flex flex-wrap items-center gap-3 break-words"><Hammer className="w-6 h-6 text-[#b87333]" />{t(section.category) as string}</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {section.items.map((item) => (
                   <div key={item.name} className="texture-card group relative p-6 rounded-2xl bg-white/[0.03] border border-white/10 hover:border-[#b87333]/50 hover:bg-white/[0.06]">

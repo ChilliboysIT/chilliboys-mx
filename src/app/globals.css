@@ -50,8 +50,13 @@ body {
   background: #b87333;
 }
 
-html {
+html, body {
+  overflow-x: hidden;
   scroll-behavior: smooth;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
 }
 
 ::selection {
