@@ -5,7 +5,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "Chilli Boys MFG. | Engineering & Fabrication — Baja California Sur",
+  title: "Chilli Boys Manufacturing | Engineering & Fabrication — Baja California Sur",
   description:
     "You Dream It. We Build It. Custom engineering and fabrication in Baja California Sur, Mexico. Metalwork, woodwork, pergolas, staircases, gates, and bespoke outdoor structures.",
   keywords: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Chilli Boys Manufacturing" }],
   openGraph: {
-    title: "Chilli Boys MFG. | Engineering & Fabrication",
+    title: "Chilli Boys Manufacturing | Engineering & Fabrication",
     description: "You Dream It. We Build It. — Baja California Sur, Mexico",
     url: "https://chilliboys.mx",
     siteName: "Chilli Boys Manufacturing",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chilli Boys MFG.",
+    title: "Chilli Boys Manufacturing",
     description: "You Dream It. We Build It.",
   },
   robots: "index, follow",
